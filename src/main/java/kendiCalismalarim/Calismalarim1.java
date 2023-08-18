@@ -1,4 +1,4 @@
-package practice01;
+package kendiCalismalarim;
 
 import java.util.Scanner;
 
