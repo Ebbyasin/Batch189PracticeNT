@@ -20,5 +20,6 @@ public class CalismaLoop01 {
             }
         }
        System.out.println(unique);
+
     }
 }
