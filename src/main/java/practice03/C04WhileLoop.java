@@ -11,14 +11,13 @@ public class C04WhileLoop {
         // Not: While loop kullanınız
         // Örn: Sayı: 41
         //      Çıktı: 41, 42, 43, 44, 45, 46, 47, 48, 49
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("lutfen bir sayi giriniz");
-        int sayi=scan.nextInt();
+        int sayi = scan.nextInt();
 
-        while (sayi%10!=0){
-            System.out.print(sayi+", ");
+        while (sayi % 10 != 0) {
+            System.out.print(sayi + ", ");
             sayi++;
-
 
 
         }

@@ -19,32 +19,30 @@ public class C05DoWhileLoop {
           bu negatif sayiyi sayi adedine ve toplama eklemeyin
          */
 
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
-        int toplam=0;
-        int sayac=0;
+        int toplam = 0;
+        int sayac = 0;
 
         do {
             System.out.println("Lutfen pozitif bir tamsayi giriniz\nBitirmak icin 0'a basin");
-            int sayi= scan.nextInt();
+            int sayi = scan.nextInt();
 
-            if (sayi==0){
+            if (sayi == 0) {
                 break;
-            } else if (sayi<0) {
+            } else if (sayi < 0) {
                 System.out.println("Negatif sayi kullanamazsin");
                 continue;
             }
-                toplam+=sayi;//toplam=toplam+sayi
-                sayac++;
+            toplam += sayi;//toplam=toplam+sayi
+            sayac++;
 
-                //*******burda continue kullanmadan else ile bitirsek yine calisiyor*******
-
-
+            //*******burda continue kullanmadan else ile bitirsek yine calisiyor*******
 
 
-        } while (true );
+        } while (true);
 
 
-        System.out.println("Girdiginiz "+sayac+" adet pozitif tamsayının toplamı : "+toplam);
+        System.out.println("Girdiginiz " + sayac + " adet pozitif tamsayının toplamı : " + toplam);
     }
 }
